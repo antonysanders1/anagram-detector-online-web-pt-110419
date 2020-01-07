@@ -10,7 +10,7 @@ class Anagram
   
   def match(array)
     binding.pry
-    
+    array.select {|w| w.match(%(@word))}
     
   end 
   
